@@ -1,0 +1,15 @@
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+copy .env.example .env
+.venv\Scripts\activate
+python run.py
+  ========================================init.py==========================================
+  backend/app/__init__.py
+backend/app/core/__init__.py
+backend/app/models/__init__.py
+backend/app/api/__init__.py
+backend/app/services/__init__.py
+backend/app/crew/__init__.py
+backend/app/utils/__init__.py
