@@ -1,0 +1,33 @@
+User Input
+   |
+   +-- Stock
+   +-- Capital
+   +-- Risk tolerance
+   +-- Strategy preference
+   +-- News impact
+   |
+   v
+CSV Discovery
+   |
+   v
+Relevant stock CSV
+   |
+   v
+Market/indicator calculation
+   |
+   v
+CrewAI
+   |
+   +--> Data Analyst
+   |
+   +--> Trading Strategy
+   |
+   +--> Execution Planning
+   |
+   +--> Risk Management
+   |
+   v
+Final JSON
+   |
+   v
+React Dashboard
