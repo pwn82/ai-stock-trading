@@ -1,0 +1,35 @@
+                         REACT FRONTEND
+                              |
+                              | HTTP/JSON
+                              v
+                    FASTAPI BACKEND
+                              |
+              +---------------+---------------+
+              |               |               |
+              v               v               v
+        CSV File Service   Market Service   Chat Service
+              |                               |
+              |                               v
+              |                         Groq LLM
+              |                               |
+              v                               |
+       C:\ D:\ E:\ ...                        |
+       stock_Analysis*.csv                    |
+              |                               |
+              +---------------+---------------+
+                              |
+                              v
+                    CREWAI MULTI-AGENTS
+                              |
+          +-------------------+-------------------+
+          |                   |                   |
+          v                   v                   v
+   Data Analyst        Strategy Analyst    Execution Planner
+          |                   |                   |
+          +-------------------+-------------------+
+                              |
+                              v
+                       Risk Manager
+                              |
+                              v
+                     Final Recommendation
